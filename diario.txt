@@ -1,14 +1,21 @@
+28/09/2015:
+- Visto las fases de compilación: 
+	- preprocesado: gcc -E HolaMundo.c > HolaMundo.e
+	- compilación: gcc -S HolaMundo.c (HolaMundo.s)
+	- emsamblado: gcc -c HolaMundo.c (HolaMundo.o)
+	- enlazado: gcc -o HolaMundp.exe HolaMundo.c
+
 23/09/2015:
-Realizado HolaMundo.c
+- Realizado HolaMundo.c
 
 Hasta 23/09/2015: 
-Instalar git desde synaptic.
+- Instalar git desde synaptic.
 
-Creación de un repositorio en github.
- - Si no eres usuario, debes crear una cuenta. 
+- Creación de un repositorio en github.
+	- Si no eres usuario, debes crear una cuenta. 
 
-Clonación del repositorio del hithub.
- - git clone https://github.com/adriandavia15/ed.git
+- Clonación del repositorio del hithub.
+	- git clone https://github.com/adriandavia15/ed.git
    
 - gedit hola-mundo-git.txt
 
@@ -21,5 +28,3 @@ Clonación del repositorio del hithub.
 
 - git config --global push.default simple
 - git push
-
-  
