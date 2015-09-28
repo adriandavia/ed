@@ -1,0 +1,25 @@
+23/09/2015:
+Realizado HolaMundo.c
+
+Hasta 23/09/2015: 
+Instalar git desde synaptic.
+
+Creación de un repositorio en github.
+ - Si no eres usuario, debes crear una cuenta. 
+
+Clonación del repositorio del hithub.
+ - git clone https://github.com/adriandavia15/ed.git
+   
+- gedit hola-mundo-git.txt
+
+- git add .
+
+- git config --global user.name adriandavia15
+- git config --global user.email dam.adavia@institutoserpis.org
+
+- git commit -m "Hola mundo desde git" 
+
+- git config --global push.default simple
+- git push
+
+  
