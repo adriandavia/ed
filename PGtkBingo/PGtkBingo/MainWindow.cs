@@ -51,9 +51,11 @@ public partial class MainWindow: Gtk.Window
 			int numero = numeros[indexAleatorio];
 			labelNumero.Text = numero.ToString();
 			numeros.RemoveAt(indexAleatorio);
-			Button button = buttons[indexAleatorio];
+			//indexAleatorio++;
+			Button button = buttons[numero - 1];
 			button.ModifyBg (StateType.Normal, GREEN_COLOR);
 			Process.Start ("espeak", "-v es " + numeros.Count);
+			buttonNumero.Sensitive = buttons.Count>0;
 		};
 
 
