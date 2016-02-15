@@ -1,0 +1,72 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Número1:"
+    android:id="@+id/textView" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_weight="1" />
+    </LinearLayout>
+<LinearLayout
+android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<TextView
+android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Número2:"
+    android:id="@+id/textView2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_weight="1" />
+</LinearLayout>
+<LinearLayout
+android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<Button
+android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="+"
+    android:id="@+id/button"
+    android:onClick="sumar" />
+<Button
+android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="-"
+    android:id="@+id/button2"
+    android:onClick="restar" />
+<Button
+android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="*"
+    android:id="@+id/button3"
+    android:onClick="multiplicar" />
+<Button
+android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="/"
+    android:id="@+id/button4"
+    android:onClick="dividir" />
+    </LinearLayout>
+</LinearLayout>
