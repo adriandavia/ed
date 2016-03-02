@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>GHolaMundo</name>
-	<comment>Project GHolaMundo created by Buildship.</comment>
+	<name>Gmysql</name>
+	<comment>Project Gmysql created by Buildship.</comment>
 	<projects>
 	</projects>
 	<buildSpec>
@@ -22,7 +22,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1456139324767</id>
+			<id>1456904105744</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
@@ -31,7 +31,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1456139324770</id>
+			<id>1456904105752</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
